@@ -1,1 +1,1 @@
-data = [("Asad","30"),("Anas","31"),("Uzair","26")]  
+data = [("Asad","30"),("Anas","31"),("Uzair","26")]
