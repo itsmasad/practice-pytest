@@ -8,11 +8,10 @@
 #     driver.get("https://www.google.com/")
 #     driver.implicitly_wait
 #     driver.maximize_window
-    
  
-# @pytest.mark.parametrize("name,age",data)
-# def test_para(name,age):
-#     print(name+' '+age)
+@pytest.mark.parametrize("name,age",data)
+def test_para(name,age):
+    print(name+' '+age)
 
 import openpyxl.workbook
 import pytest
